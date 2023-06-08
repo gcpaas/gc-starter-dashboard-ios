@@ -1,0 +1,124 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.8.0):
+    - CocoaLumberjack/Core (= 3.8.0)
+  - CocoaLumberjack/Core (3.8.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - IFMMenu (1.0.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.15.7):
+    - SDWebImage/Core (= 5.15.7)
+  - SDWebImage/Core (5.15.7)
+  - SGQRCode (4.1.0)
+  - SSHelpTools (0.1.4):
+    - SSHelpTools/SSHelpLog (= 0.1.4)
+    - SSHelpTools/SSHelpNetwork (= 0.1.4)
+    - SSHelpTools/SSHelpTools (= 0.1.4)
+    - SSHelpTools/SSHelpWebView (= 0.1.4)
+  - SSHelpTools/SSHelpLog (0.1.4):
+    - CocoaLumberjack
+    - GCDWebServer
+  - SSHelpTools/SSHelpNetwork (0.1.4):
+    - AFNetworking
+    - ReactiveObjC
+  - SSHelpTools/SSHelpTools (0.1.4):
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - ReactiveObjC
+    - SDWebImage
+    - UICKeyChainStore
+    - YYKit
+  - SSHelpTools/SSHelpWebView (0.1.4):
+    - SSHelpTools/SSHelpTools
+    - WebViewJavascriptBridge
+  - SVProgressHUD (2.2.5)
+  - UICKeyChainStore (2.2.1)
+  - WebViewJavascriptBridge (6.0.3)
+  - YCXMenu (0.0.11)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - FMDB
+  - IFMMenu
+  - Masonry
+  - ReactiveObjC
+  - SDWebImage
+  - SGQRCode
+  - SSHelpTools (from `https://github.com/songzhibing/SSHelpTools.git`, commit `ae3d969`, branch `develop`)
+  - SVProgressHUD
+  - YCXMenu
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaLumberjack
+    - FMDB
+    - GCDWebServer
+    - IFMMenu
+    - Masonry
+    - MBProgressHUD
+    - ReactiveObjC
+    - SDWebImage
+    - SGQRCode
+    - SVProgressHUD
+    - UICKeyChainStore
+    - WebViewJavascriptBridge
+    - YCXMenu
+    - YYKit
+
+EXTERNAL SOURCES:
+  SSHelpTools:
+    :branch: develop
+    :commit: ae3d969
+    :git: https://github.com/songzhibing/SSHelpTools.git
+
+CHECKOUT OPTIONS:
+  SSHelpTools:
+    :commit: ae3d969107da74a28a3c06007640725e613fa424
+    :git: https://github.com/songzhibing/SSHelpTools.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  IFMMenu: f3f6b5d9e16a40140cc3361401a1143c4a35d5c4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 25bac438318faf37e35650619ebc288a9061d292
+  SGQRCode: 6ad664d63f38f2842503bc5087812c5a3136d924
+  SSHelpTools: 90f06bcb1937958eb09809ddc8e7ada5c6017033
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YCXMenu: 6003bcd20d8ac72e3eb3c442c97ed21948c6dc1f
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: dd40baf33cf4eaa5eebde136517926d52453ddec
+
+COCOAPODS: 1.11.2

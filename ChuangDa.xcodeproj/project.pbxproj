@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B81F26BE804CB593AF8E4C8 /* Pods_ChuangDa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F37408BF0D44EB494C6C07 /* Pods_ChuangDa.framework */; };
+		C01EB6DD28F538BD00D1A6EA /* CDStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EB6DC28F538BD00D1A6EA /* CDStorageManager.m */; };
+		C0336E5028F50CD8007B3E39 /* CDWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0336E4F28F50CD8007B3E39 /* CDWKWebViewController.m */; };
+		C06DF5F428F4052700670961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C06DF5F328F4052700670961 /* AppDelegate.m */; };
+		C06DF5FD28F4052800670961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06DF5FB28F4052800670961 /* Main.storyboard */; };
+		C06DF5FF28F4052900670961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06DF5FE28F4052900670961 /* Assets.xcassets */; };
+		C06DF60228F4052900670961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06DF60028F4052900670961 /* LaunchScreen.storyboard */; };
+		C06DF60528F4052900670961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C06DF60428F4052900670961 /* main.m */; };
+		C086B43728F4145D0028FB41 /* CDBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C086B43628F4145D0028FB41 /* CDBaseNavigationController.m */; };
+		C086B43A28F415980028FB41 /* CDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C086B43928F415980028FB41 /* CDBaseViewController.m */; };
+		C086B43E28F416390028FB41 /* CDHomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C086B43D28F416390028FB41 /* CDHomeNavigationController.m */; };
+		C086B44128F4165A0028FB41 /* CDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C086B44028F4165A0028FB41 /* CDHomeViewController.m */; };
+		C0A64E4B28F549F50096BE88 /* CDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A64E4A28F549F50096BE88 /* CDSettingViewController.m */; };
+		C0B335A928F41FD700DC2D9A /* CDQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B335A428F41FD700DC2D9A /* CDQRCodeVC.m */; };
+		C0B335AA28F41FD700DC2D9A /* CDQRCodeToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B335A728F41FD700DC2D9A /* CDQRCodeToolBar.m */; };
+		C0D5DCF828F501560063F0CD /* CDHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D5DCF728F501560063F0CD /* CDHomeCollectionViewCell.m */; };
+		C0D5DCFC28F5060A0063F0CD /* CDHomeWebHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D5DCFB28F5060A0063F0CD /* CDHomeWebHistoryModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		178BF4A1BD928FBF6FA556D7 /* Pods-ChuangDa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuangDa.debug.xcconfig"; path = "Target Support Files/Pods-ChuangDa/Pods-ChuangDa.debug.xcconfig"; sourceTree = "<group>"; };
+		20F37408BF0D44EB494C6C07 /* Pods_ChuangDa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuangDa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01EB6DB28F538BD00D1A6EA /* CDStorageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDStorageManager.h; sourceTree = "<group>"; };
+		C01EB6DC28F538BD00D1A6EA /* CDStorageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDStorageManager.m; sourceTree = "<group>"; };
+		C0336E4E28F50CD8007B3E39 /* CDWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDWKWebViewController.h; sourceTree = "<group>"; };
+		C0336E4F28F50CD8007B3E39 /* CDWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDWKWebViewController.m; sourceTree = "<group>"; };
+		C06DF5EF28F4052700670961 /* ChuangDa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuangDa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06DF5F228F4052700670961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C06DF5F328F4052700670961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C06DF5FC28F4052800670961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C06DF5FE28F4052900670961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C06DF60128F4052900670961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C06DF60328F4052900670961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06DF60428F4052900670961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C086B43428F410AD0028FB41 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C086B43528F4145D0028FB41 /* CDBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDBaseNavigationController.h; sourceTree = "<group>"; };
+		C086B43628F4145D0028FB41 /* CDBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDBaseNavigationController.m; sourceTree = "<group>"; };
+		C086B43828F415980028FB41 /* CDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDBaseViewController.h; sourceTree = "<group>"; };
+		C086B43928F415980028FB41 /* CDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDBaseViewController.m; sourceTree = "<group>"; };
+		C086B43C28F416390028FB41 /* CDHomeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDHomeNavigationController.h; sourceTree = "<group>"; };
+		C086B43D28F416390028FB41 /* CDHomeNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDHomeNavigationController.m; sourceTree = "<group>"; };
+		C086B43F28F4165A0028FB41 /* CDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDHomeViewController.h; sourceTree = "<group>"; };
+		C086B44028F4165A0028FB41 /* CDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDHomeViewController.m; sourceTree = "<group>"; };
+		C0A64E4928F549F50096BE88 /* CDSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDSettingViewController.h; sourceTree = "<group>"; };
+		C0A64E4A28F549F50096BE88 /* CDSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDSettingViewController.m; sourceTree = "<group>"; };
+		C0B335A428F41FD700DC2D9A /* CDQRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDQRCodeVC.m; sourceTree = "<group>"; };
+		C0B335A528F41FD700DC2D9A /* CDQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDQRCodeVC.h; sourceTree = "<group>"; };
+		C0B335A728F41FD700DC2D9A /* CDQRCodeToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDQRCodeToolBar.m; sourceTree = "<group>"; };
+		C0B335A828F41FD700DC2D9A /* CDQRCodeToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDQRCodeToolBar.h; sourceTree = "<group>"; };
+		C0D5DCF628F501560063F0CD /* CDHomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		C0D5DCF728F501560063F0CD /* CDHomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		C0D5DCFA28F5060A0063F0CD /* CDHomeWebHistoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDHomeWebHistoryModel.h; sourceTree = "<group>"; };
+		C0D5DCFB28F5060A0063F0CD /* CDHomeWebHistoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDHomeWebHistoryModel.m; sourceTree = "<group>"; };
+		D70478DA16FAB825D72803D3 /* Pods-ChuangDa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuangDa.release.xcconfig"; path = "Target Support Files/Pods-ChuangDa/Pods-ChuangDa.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C06DF5EC28F4052700670961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B81F26BE804CB593AF8E4C8 /* Pods_ChuangDa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114CA06AF0491AEB26291578 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				178BF4A1BD928FBF6FA556D7 /* Pods-ChuangDa.debug.xcconfig */,
+				D70478DA16FAB825D72803D3 /* Pods-ChuangDa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66C0CE90075D58D0936D616D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20F37408BF0D44EB494C6C07 /* Pods_ChuangDa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01EB6DA28F538A700D1A6EA /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				C01EB6DB28F538BD00D1A6EA /* CDStorageManager.h */,
+				C01EB6DC28F538BD00D1A6EA /* CDStorageManager.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		C0336E4D28F50CBD007B3E39 /* WKWeb */ = {
+			isa = PBXGroup;
+			children = (
+				C0336E4E28F50CD8007B3E39 /* CDWKWebViewController.h */,
+				C0336E4F28F50CD8007B3E39 /* CDWKWebViewController.m */,
+			);
+			path = WKWeb;
+			sourceTree = "<group>";
+		};
+		C0336E5128F50D36007B3E39 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C086B43C28F416390028FB41 /* CDHomeNavigationController.h */,
+				C086B43D28F416390028FB41 /* CDHomeNavigationController.m */,
+				C086B43F28F4165A0028FB41 /* CDHomeViewController.h */,
+				C086B44028F4165A0028FB41 /* CDHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C06DF5E628F4052700670961 = {
+			isa = PBXGroup;
+			children = (
+				C06DF5F128F4052700670961 /* ChuangDa */,
+				C06DF5F028F4052700670961 /* Products */,
+				114CA06AF0491AEB26291578 /* Pods */,
+				66C0CE90075D58D0936D616D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C06DF5F028F4052700670961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C06DF5EF28F4052700670961 /* ChuangDa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C06DF5F128F4052700670961 /* ChuangDa */ = {
+			isa = PBXGroup;
+			children = (
+				C086B43228F410520028FB41 /* Class */,
+				C06DF5F228F4052700670961 /* AppDelegate.h */,
+				C06DF5F328F4052700670961 /* AppDelegate.m */,
+				C06DF5FB28F4052800670961 /* Main.storyboard */,
+				C06DF5FE28F4052900670961 /* Assets.xcassets */,
+				C06DF60028F4052900670961 /* LaunchScreen.storyboard */,
+				C06DF60328F4052900670961 /* Info.plist */,
+				C06DF60428F4052900670961 /* main.m */,
+				C086B43428F410AD0028FB41 /* PrefixHeader.pch */,
+			);
+			path = ChuangDa;
+			sourceTree = "<group>";
+		};
+		C086B43228F410520028FB41 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C0A64E4828F549C50096BE88 /* Setting */,
+				C0336E4D28F50CBD007B3E39 /* WKWeb */,
+				C0B335A128F41FB600DC2D9A /* Tools */,
+				C086B43B28F416230028FB41 /* Home */,
+				C086B43328F4105A0028FB41 /* Base */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C086B43328F4105A0028FB41 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C086B43528F4145D0028FB41 /* CDBaseNavigationController.h */,
+				C086B43628F4145D0028FB41 /* CDBaseNavigationController.m */,
+				C086B43828F415980028FB41 /* CDBaseViewController.h */,
+				C086B43928F415980028FB41 /* CDBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C086B43B28F416230028FB41 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C0336E5128F50D36007B3E39 /* Controller */,
+				C0D5DCF928F505E30063F0CD /* Model */,
+				C0D5DCF528F5011D0063F0CD /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C0A64E4828F549C50096BE88 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C0A64E4C28F549F80096BE88 /* Controller */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		C0A64E4C28F549F80096BE88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0A64E4928F549F50096BE88 /* CDSettingViewController.h */,
+				C0A64E4A28F549F50096BE88 /* CDSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C0B335A128F41FB600DC2D9A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C01EB6DA28F538A700D1A6EA /* Storage */,
+				C0B335A228F41FC700DC2D9A /* Scan */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C0B335A228F41FC700DC2D9A /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				C0B335A328F41FD700DC2D9A /* Controller */,
+				C0B335A628F41FD700DC2D9A /* View */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		C0B335A328F41FD700DC2D9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0B335A528F41FD700DC2D9A /* CDQRCodeVC.h */,
+				C0B335A428F41FD700DC2D9A /* CDQRCodeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C0B335A628F41FD700DC2D9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0B335A828F41FD700DC2D9A /* CDQRCodeToolBar.h */,
+				C0B335A728F41FD700DC2D9A /* CDQRCodeToolBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0D5DCF528F5011D0063F0CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0D5DCF628F501560063F0CD /* CDHomeCollectionViewCell.h */,
+				C0D5DCF728F501560063F0CD /* CDHomeCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0D5DCF928F505E30063F0CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0D5DCFA28F5060A0063F0CD /* CDHomeWebHistoryModel.h */,
+				C0D5DCFB28F5060A0063F0CD /* CDHomeWebHistoryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C06DF5EE28F4052700670961 /* ChuangDa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06DF60828F4052900670961 /* Build configuration list for PBXNativeTarget "ChuangDa" */;
+			buildPhases = (
+				C394AFCCD1C24C46B060D7E8 /* [CP] Check Pods Manifest.lock */,
+				C06DF5EB28F4052700670961 /* Sources */,
+				C06DF5EC28F4052700670961 /* Frameworks */,
+				C06DF5ED28F4052700670961 /* Resources */,
+				CF52C269DF89ED28C5D70CFD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChuangDa;
+			productName = ChuangDa;
+			productReference = C06DF5EF28F4052700670961 /* ChuangDa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C06DF5E728F4052700670961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C06DF5EE28F4052700670961 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C06DF5EA28F4052700670961 /* Build configuration list for PBXProject "ChuangDa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C06DF5E628F4052700670961;
+			productRefGroup = C06DF5F028F4052700670961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C06DF5EE28F4052700670961 /* ChuangDa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C06DF5ED28F4052700670961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06DF60228F4052900670961 /* LaunchScreen.storyboard in Resources */,
+				C06DF5FF28F4052900670961 /* Assets.xcassets in Resources */,
+				C06DF5FD28F4052800670961 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C394AFCCD1C24C46B060D7E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChuangDa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF52C269DF89ED28C5D70CFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChuangDa/Pods-ChuangDa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChuangDa/Pods-ChuangDa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChuangDa/Pods-ChuangDa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C06DF5EB28F4052700670961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01EB6DD28F538BD00D1A6EA /* CDStorageManager.m in Sources */,
+				C086B43E28F416390028FB41 /* CDHomeNavigationController.m in Sources */,
+				C086B43A28F415980028FB41 /* CDBaseViewController.m in Sources */,
+				C0A64E4B28F549F50096BE88 /* CDSettingViewController.m in Sources */,
+				C086B43728F4145D0028FB41 /* CDBaseNavigationController.m in Sources */,
+				C0B335AA28F41FD700DC2D9A /* CDQRCodeToolBar.m in Sources */,
+				C0D5DCFC28F5060A0063F0CD /* CDHomeWebHistoryModel.m in Sources */,
+				C0B335A928F41FD700DC2D9A /* CDQRCodeVC.m in Sources */,
+				C0336E5028F50CD8007B3E39 /* CDWKWebViewController.m in Sources */,
+				C086B44128F4165A0028FB41 /* CDHomeViewController.m in Sources */,
+				C06DF5F428F4052700670961 /* AppDelegate.m in Sources */,
+				C06DF60528F4052900670961 /* main.m in Sources */,
+				C0D5DCF828F501560063F0CD /* CDHomeCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C06DF5FB28F4052800670961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C06DF5FC28F4052800670961 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C06DF60028F4052900670961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C06DF60128F4052900670961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C06DF60628F4052900670961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C06DF60728F4052900670961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C06DF60928F4052900670961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178BF4A1BD928FBF6FA556D7 /* Pods-ChuangDa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 24N8X78JKA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChuangDa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "仪表盘";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App需要您的同意,才能访问媒体资料库";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "App需要您的同意,才能访问蓝牙";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "App需要您的同意,才能访问日历";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意,才能访问相机";
+				INFOPLIST_KEY_NSContactsUsageDescription = "App需要您的同意,才能访问通讯录";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App需要您的同意,才能访问健康分享";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App需要您的同意,才能访问健康更新 ";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要您的同意,才能始终访问位置";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App需要您的同意,才能访问位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要您的同意,才能在使用期间访问位置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App需要您的同意,才能访问麦克风";
+				INFOPLIST_KEY_NSMotionUsageDescription = "App需要您的同意,才能访问运动与健身";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App需要您的同意,才能访问相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要您的同意,才能访问相册";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "App需要您的同意,才能访问提醒事项";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gccloud.dynamic.gccloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = com.gccloud.dynamic.development.profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C06DF60A28F4052900670961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70478DA16FAB825D72803D3 /* Pods-ChuangDa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 24N8X78JKA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChuangDa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "仪表盘";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App需要您的同意,才能访问媒体资料库";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "App需要您的同意,才能访问蓝牙";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "App需要您的同意,才能访问日历";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意,才能访问相机";
+				INFOPLIST_KEY_NSContactsUsageDescription = "App需要您的同意,才能访问通讯录";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App需要您的同意,才能访问健康分享";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App需要您的同意,才能访问健康更新 ";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要您的同意,才能始终访问位置";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App需要您的同意,才能访问位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要您的同意,才能在使用期间访问位置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App需要您的同意,才能访问麦克风";
+				INFOPLIST_KEY_NSMotionUsageDescription = "App需要您的同意,才能访问运动与健身";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App需要您的同意,才能访问相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要您的同意,才能访问相册";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "App需要您的同意,才能访问提醒事项";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gccloud.dynamic.gccloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = com.gccloud.dynamic.development.profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C06DF5EA28F4052700670961 /* Build configuration list for PBXProject "ChuangDa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06DF60628F4052900670961 /* Debug */,
+				C06DF60728F4052900670961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06DF60828F4052900670961 /* Build configuration list for PBXNativeTarget "ChuangDa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06DF60928F4052900670961 /* Debug */,
+				C06DF60A28F4052900670961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C06DF5E728F4052700670961 /* Project object */;
+}

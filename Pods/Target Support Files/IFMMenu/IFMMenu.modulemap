@@ -1,0 +1,6 @@
+framework module IFMMenu {
+  umbrella header "IFMMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
